@@ -21,7 +21,7 @@ Place your own additional data into `data`.
 ## 🚀 Example usage
 
 ```
-> Please explain the house of cards thesis in detail by attobit and it's possible implications"
+> python chatgpt.py "Prompt: Please explain the house of cards thesis in detail by attobit and it's possible implications"
 The "House of Cards" thesis, as presented by u/ATOBITT, suggests that there may be significant discrepancies and inaccuracies in the reporting of short interest data by the SEC (Securities and Exchange Commission). The thesis is based on the information shared by Wes Christian during an AMA (Ask Me Anything) session.
 
 According to Wes Christian, there have been instances where the actual short interest in a particular stock is much higher than what is officially reported by the SEC. He claims that his firm obtained data for legal proceedings that indicate the real short interest can be 50% to 150% more than the reported figures.
@@ -37,4 +37,16 @@ extent of the alleged discrepancies in short interest reporting by the SEC.
 ```
 > python chatgpt.py "Prompt: What were the net sales of GameStop for Q4 2022? "
 The net sales of GameStop for Q4 2022 were $2.261 billion.
+```
+
+## 🔄 Alternate Version
+
+There's also an alternate version of the script that prioritizes retrieving answers from the dataset before using the OpenAI model. This can help reduce the cost of using the OpenAI API.
+
+To use the alternate version, run the `chatgpt_reduced_cost.py` script instead of `chatgpt.py`.
+
+```bash
+> python chatgpt_reduced_cost.py "Prompt: What were the net sales of GameStop for Q4 2022? "
+The net sales of GameStop for Q4 2022 were $2.261 billion.
+
 ```
