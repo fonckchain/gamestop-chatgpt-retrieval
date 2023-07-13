@@ -1,10 +1,12 @@
-# GameStop ChatGPT Retrieval
-
-Simple script to use ChatGPT to interact with GameStop phenomenon data, including resources from the SupersStonk community, GameStop's blockchain ventures and GameStop's financial data.
+<p align="center">
+  <img width="180" src="./public/openai.png" alt="ChatGPT">
+  <h1 align="center">GameStop ChatGPT Retrieval</h1>
+  <p align="center">Simple script to use ChatGPT to interact with GameStop phenomenon data, including resources from the SupersStonk community, GameStop's blockchain ventures and GameStop's financial data</p>
+</p>
 
 Here's the [Original YouTube Guide](https://youtu.be/9AXP7tCI9PI).
 
-## Installation
+## 📦 Installation
 
 Install [Langchain](https://github.com/hwchase17/langchain) and other required packages.
 
@@ -16,7 +18,7 @@ Modify `constants.py.default` to use your own [OpenAI API key](https://platform.
 
 Place your own additional data into `data`.
 
-## Example usage
+## 🚀 Example usage
 
 ```
 > Please explain the house of cards thesis in detail by attobit and it's possible implications"
